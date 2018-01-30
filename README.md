@@ -10,6 +10,13 @@ If you run in to issues during this process, please check out the troubleshootin
 #### Linux/maybe osx
 Someone actually wrote a nice article showing how to run this [here](http://ask.xmodulo.com/export-robinhood-transaction-data.html).
 
+// Install pip if needed - download here https://bootstrap.pypa.io/get-pip.py
+$ python get-pip.py
+$ git clone https://github.com/briansrls/Robinhood-for-Google-Finance.git
+$ cd Robinhood-for-Google-Finance/
+$ pip install requests // might have to sudo
+$ python gf-export.py
+
 ### Description
 
 A Python script to export your [Robinhood](https://www.robinhood.com) trades to a .csv file (In a nice, Google Finance friendly format).  Based on the [Robinhood library by Rohan Pai](https://github.com/Jamonek/Robinhood) and [Robinhood to CSV by Josh Fraser](https://github.com/joshfraser).
