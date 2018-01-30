@@ -12,9 +12,15 @@ Someone actually wrote a nice article showing how to run this [here](http://ask.
 
 // Install pip if needed - download here https://bootstrap.pypa.io/get-pip.py
 - $ python get-pip.py
+
+// Clone repo
 - $ git clone https://github.com/briansrls/Robinhood-for-Google-Finance.git
 - $ cd Robinhood-for-Google-Finance/
-- $ pip install requests // might have to sudo
+
+// Install dependency (might have to sudo)
+- $ pip install requests
+
+// Run the exporter
 - $ python gf-export.py
 
 ### Description
