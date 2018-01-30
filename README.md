@@ -11,11 +11,11 @@ If you run in to issues during this process, please check out the troubleshootin
 Someone actually wrote a nice article showing how to run this [here](http://ask.xmodulo.com/export-robinhood-transaction-data.html).
 
 // Install pip if needed - download here https://bootstrap.pypa.io/get-pip.py
-$ python get-pip.py
-$ git clone https://github.com/briansrls/Robinhood-for-Google-Finance.git
-$ cd Robinhood-for-Google-Finance/
-$ pip install requests // might have to sudo
-$ python gf-export.py
+- $ python get-pip.py
+- $ git clone https://github.com/briansrls/Robinhood-for-Google-Finance.git
+- $ cd Robinhood-for-Google-Finance/
+- $ pip install requests // might have to sudo
+- $ python gf-export.py
 
 ### Description
 
